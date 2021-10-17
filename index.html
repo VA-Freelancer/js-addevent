@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>
+            <span class="yellow">Javascript</span> события
+        </h1>
+        <h3></h3>
+        <!-- Использования атрибутов HTML-->
+        <div class="btn-box">
+            <button type="button" class="button" data-number="1">Нажми на меня</button>
+            <button type="button" class="button" data-number="2">И на меня</button>
+            <button type="button" class="button" data-number="3">И на меня</button>
+            <button type="button" class="button" data-number="4">И на меня</button>
+        </div>
+        <div class="quad-box block-for-mouse">
+
+        </div>
+        <div class="quad-box block-for-mouse-2">
+
+        </div>
+        <div class="quad-box block-for-mouse-3">
+
+        </div>
+        <div class="quad-box block-for-mouse-4">
+            <span>Я дочерний элемент</span>
+        </div>
+        <div class="quad-box block-for-mouse-5">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+        </div>
+        <nav class="menu">
+            <button type="button" class="menu__button button">
+                <span>Открыть меню</span>
+                <span>Закрыть меню</span>
+            </button>
+            <ul hidden class="menu__list">
+                <li><a href="" class="menu__link">Пункт №1</a></li>
+                <li><a href="" class="menu__link">Пункт №2</a></li>
+                <li><a href="" class="menu__link">Пункт №3</a></li>
+                <li><a href="" class="menu__link">Пункт №4</a></li>
+                <li><a href="" class="menu__link">Пункт №5</a></li>
+                <li><a href="" class="menu__link">Пункт №6</a></li>
+            </ul>
+        </nav>
+        <div class="drag-field">
+            <div class="drag-field__item"></div>
+            <div class="drag-field__point"></div>
+        </div>
+        <div class="textarea">
+            <textarea autocomplete="off" name="form[]" id="" maxlength="30" rows="10" class="textarea__item"></textarea>
+            <div class="textarea__counter">Осталось <span></span> символов</div>
+        </div>
+        <div class="image__box">
+            <img src="1.jpg" alt="" class="image">
+        </div>
+
+        <!-- <div class="block">
+            Блок
+            <div class="block-inner">
+                Блок второго уровня
+                <div class="block-inner-inner">
+                    Блок третьего уровня
+                </div>
+            </div>
+        </div>      -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
